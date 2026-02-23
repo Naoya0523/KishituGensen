@@ -189,3 +189,11 @@ class Dairaihan(Weapon):
         self.status_1 = STRENGTH
         self.status_2 = HP
         self.status_3 = HEALING
+
+class Dokusaisha(Weapon):
+    def __init__(self):
+        super().__init__()
+        self.name = "芸術の独裁者"
+        self.status_1 = INTELLIGENCE
+        self.status_2 = CRITICAL
+        self.status_3 = BONECUTTING
